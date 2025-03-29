@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0f2f7, #d1c4e9);
+    color: #333;
+    transition: background 0.3s ease;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.container form {
+    display: grid;
+    grid-gap: 15px;
+}
+
+.container label {
+    font-weight: 600;
+    color: #555;
+}
+
+.container input[type="number"],
+.container input[type="text"] {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.container input[type="number"]:focus,
+.container input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.container button[type="submit"] {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.container button[type="submit"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container p {
+    margin-top: 10px;
+    color: #444;
+}
+
+.container span {
+    color: #e74c3c;
+}
+
+.container input[type="checkbox"] {
+    margin-right: 5px;
+    transform: scale(1.2);
+    margin-left: 0;
+}
+
+.container form:nth-of-type(2) {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for the second form */
+}
+
+.container form:nth-of-type(2) label,
+.container form:nth-of-type(2) input[type="text"]{
+    display: block; /* Make labels and inputs block-level */
+    margin-bottom: 5px;
+}
+
+.container form:nth-of-type(2) input[type="checkbox"] {
+    margin-right: 5px;
+    transform: scale(1.2);
+    border-left: 3px solid #007bff; /* Add left border to checkboxes */
+    padding-left: 5px; /* Add padding to make space for the border */
+}
+
+.container form:nth-of-type(2) input[type="checkbox"]:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.container form:nth-of-type(2) input[type="text"] + span{
+    display: inline;
+}
+
+.error {
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+}
