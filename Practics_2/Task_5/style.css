@@ -1,0 +1,84 @@
+body {
+  font-family: 'Times New Roman', serif; /* შრიფტის შეცვლა */
+  line-height: 1.6;
+  margin: 20px;
+}
+
+.form-container {
+  width: 500px;
+  margin: 0 auto;
+  border: 2px solid black; /* საზღვრის დამატება */
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: calc(100% - 100px);
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  background-color: #eee; /* ღილაკის ფონის შეცვლა */
+  color: black;
+  padding: 10px 15px;
+  border: 1px solid black; /* ღილაკის საზღვრის დამატება */
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #ddd;
+}
+
+.error {
+  color: red;
+  display: inline;
+  margin-left: 5px;
+}
+
+.your-input {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}

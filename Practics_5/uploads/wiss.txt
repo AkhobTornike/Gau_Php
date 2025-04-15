@@ -1,0 +1,156 @@
+SHEMOSAVLEBIS SHEMOWMEBA  :  telnet 37.46.105.151 8022
+=======================================================
+
+wissol wifi paroli : Wissol24$
+
+==========================================================
+OpitServeri
+    Serverze Shesvla
+    ---------------------------------
+
+    user :pumapro
+    pass : logitron 
+
+     AGUREBIS da Kavtaradzes  User :2624
+                              Pass :2424
+
+    Sharminis :  2512
+                 0601
+
+adminis user :  2024
+    adminis pass :  2424
+
+OTHER OPTIONS: 
+	USR  |  PASS
+	2512 |  0601
+	2024 |  2424
+`	2524 |  2424
+	2626 |  2424
+	2624 |  2424
+
+
+tvitmomsaxurebaze dapiksirda gautvaliswinebel shecdoma -vtvirtavt servers
+
+roca axali opiti gachedavs da ar reagirebs 
+
+Signout
+
+==================================================
+opitze ro amovardes klaviatura : windows + U
+
+Task Manager tu ar gamodis shevdivart da vxsnit UnSecure
+
+======================================================
+
+roca tvitmomsaxurebaze sveti gatetrebulia ,  pos domshi shevdivart (pos 1-s virchevt)
+
+da vuketebt clears 
+an vawvebit add da mere sale ok da gaswordeba
+
+
+------------------------------------------------------------------
+Teamviewerit shesvla tvitmomsaxurebis serverze
+
+Username - AzRy
+Password - Wi$$Azry
+
+==========================================================================
+სანზონა 
+10.111.32.1
+
+ფეიქრები
+10.111.75.1
+
+სიერა  - marshal gelovani
+10.111.15.9
+10.111.15.10
+
+ვარკეთილი
+10.111.1.9
+
+ბათუმი ანგისა
+10.111.52.9
+10.111.52.10
+
+
+
+============================================================================
+
+agais elektronuli tranzakciebis modzebna 
+
+address: http://10.10.20.141:8080/Reports/ 
+user: station
+pass: Stationreport1
+
+============================================================================
+
+Wissol-IT
+(WI**1133:557799)
+
+============================================================================
+Files from USB-chip
+
+chrome-file.wissol.ge
+	user: it
+	pass: wissol!
+                              
+============================================================================
+chamzomveli tls 10.11.ags.2
+server 10.111.ags.1
+
+OPT1 - 10.111.ags.9
+OPT2 - 10.111.ags.10
+OPT3 - 10.111.ags.11
+OPT4 - 10.111.ags.12
+
+doms 10.111.ags.21
+	ssd: admin
+	pass: password
+
+WGT(agai) 10.111.ags.25
+	advanced
+	orpaklab
+
+UnifY 10.111.ags.30
+	ssid: unity
+	pass: Priv*T3200
+
+tbs ports =>
+	10.111.ags.31 / 10.111.ags.33
+bog ports =>
+	10.111.ags.32 / 10.111.ags.34
+
+move tearm 10.111.ags.35 / 10.111.ags.36
+
+
+============================================================================
+
+NEED TO KNOW
+
+https://connect.wissol.ge/global-protect/getsoftwarepage.esp?user=
+
+https://my.wissol.ge/pages/home
+
+https://mail.wissol.ge/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fmail.wissol.ge%2fowa%2f
+
+https://10.10.20.169/webclient#/uems/tools/remote-control/computers
+
+https://file.wissol.ge/web/client/login
+
+https://support.wissol.ge/
+
+http://10.10.20.98:8080/control-panel/index.html?locale=ka               
+	admin
+	Wi$$Azry1$ Teamciewer enter on server : Wi$$Azry
+
+http://10.10.20.98/ssgs-console/index.jsp
+	admin
+	Wi$$Azry1$
+
+============================================================================
+
+TLS port success 
+	user: administrator
+	pass: shibzika
+
+
