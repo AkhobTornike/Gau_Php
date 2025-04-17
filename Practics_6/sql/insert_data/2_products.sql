@@ -1,0 +1,16 @@
+INSERT IGNORE INTO products (name, slug, description, price, image) VALUES
+('Smartphone X', 'smartphone-x', 'High-performance smartphone with a stunning display.', 799.99, 'smartphone-x.jpg'),
+('Wireless Headphones Pro', 'wireless-headphones-pro', 'Noise-canceling wireless headphones for immersive audio.', 249.50, 'headphones-pro.jpg'),
+('Smartwatch Active', 'smartwatch-active', 'Fitness tracker and smartwatch with heart rate monitoring.', 129.00, 'smartwatch-active.jpg'),
+('Laptop Ultrabook', 'laptop-ultrabook', 'Lightweight and powerful ultrabook for productivity.', 1299.00, 'laptop-ultrabook.jpg'),
+('Bluetooth Speaker Mini', 'bluetooth-speaker-mini', 'Portable Bluetooth speaker with great sound.', 49.99, 'speaker-mini.jpg'),
+('Coffee Maker Deluxe', 'coffee-maker-deluxe', 'Programmable coffee maker with a built-in grinder.', 179.00, 'coffee-maker-deluxe.jpg'),
+('Ergonomic Office Chair', 'ergonomic-office-chair', 'Comfortable and supportive office chair for long hours.', 299.99, 'office-chair.jpg'),
+('Mechanical Keyboard RGB', 'mechanical-keyboard-rgb', 'High-quality mechanical keyboard with customizable RGB lighting.', 119.00, 'keyboard-rgb.jpg'),
+('Wireless Mouse', 'wireless-mouse', 'Ergonomic wireless mouse for comfortable navigation.', 39.75, 'wireless-mouse.jpg'),
+('Tablet 10 Inch', 'tablet-10-inch', 'Versatile 10-inch tablet for entertainment and work.', 299.00, 'tablet-10-inch.jpg'),
+('Fitness Tracker Band', 'fitness-tracker-band', 'Basic fitness tracker for steps and sleep monitoring.', 39.99, 'fitness-tracker-band.jpg'),
+('External SSD 1TB', 'external-ssd-1tb', 'High-speed 1TB external solid-state drive.', 149.00, 'external-ssd-1tb.jpg'),
+('Gaming Monitor 27 Inch', 'gaming-monitor-27-inch', '27-inch gaming monitor with high refresh rate.', 349.00, 'gaming-monitor.jpg'),
+('Portable Projector', 'portable-projector', 'Compact portable projector for movies and presentations.', 279.00, 'portable-projector.jpg'),
+('Smart Home Hub', 'smart-home-hub', 'Central hub for controlling your smart home devices.', 79.00, 'smart-home-hub.jpg');

@@ -2,47 +2,46 @@
 include("db_connection.php");
 
 if ($conn) {
-    $sqlDirectory = __DIR__ . "/sql/create_table/";
-    $sqlFiles = glob($sqlDirectory . "*.sql");
+    ?>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Database Management</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Database Management</h1>
 
-    foreach ($sqlFiles as $sqlFile) {
-        echo "Processing file: $sqlFile<br>";
-        $tableName = pathinfo($sqlFile, PATHINFO_FILENAME);
-        $createQuery = file_get_contents($sqlFile);
+            <h2>Database Setup</h2>
+            <p>Click the button below to run the database setup (create tables and insert data).</p>
+            <form action="./sql/database_setup.php" method="get">
+                <button type="submit" class="setup-button">Run Database Setup</button>
+            </form>
 
-        if ($conn -> multi_query($createQuery)) {
-            echo "Executed SQL from '$tableName.sql' successfully.<br>";
-            // Clean result for next query
-            
-            while ($conn -> more_results() && $conn -> next_result()) {
-                if ($result = $conn -> store_result()) {
-                    $result -> free();
-                }
-            }
-        } else {
-            echo "Error executing SQL from '$tableName.sql': " . $conn -> error . "<br>";
-        }
-    }
+            <hr>
 
+            <h2>Manage Tables</h2>
+            <div class="manage-links">
+                <a href="manage_table.php?table=blog_categories">Manage Blog Categories</a>
+                <a href="manage_table.php?table=products">Manage Products</a>
+                <a href="manage_table.php?table=tags">Manage Tags</a>
+                <a href="manage_table.php?table=users">Manage Users</a>
+                <a href="manage_table.php?table=posts">Manage Posts</a>
+                <a href="manage_table.php?table=comments">Manage Comments</a>
+                <a href="manage_table.php?table=post_products">Manage Post Products</a>
+                <a href="manage_table.php?table=post_tags">Manage Post Tags</a>
+            </div>
+
+            <hr>
+        </div>
+    </body>
+    </html>
+    <?php
     $conn->close();
 } else {
-    echo "Database connection failed.";
+    echo "<script> alert('Database connection failed.');</script>";
 }
-
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-</body>
-
-</html>
